@@ -6,8 +6,9 @@ appendDots:'.sliderdots',
 dotsClass:'dots'
 
 })
-let hamburger=document.querySelector('.hamburger');
 let times=document.querySelector('.times');
+let hamburger=document.querySelector('.hamburger');
+
 let mobileNav = document.querySelector('.mobile-nav');
 hamburger.addEventListener('click',function(){
     mobileNav.classList.add('open');  
